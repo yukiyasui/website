@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>slideshow</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+  <!-- slick -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <link rel="stylesheet" href="./CSS/slick.css">
+  <!--bxslider-->
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- googlefonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&family=Zen+Old+Mincho&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- メニュー -->
+  <header class="header">
+    <div class="header_wrapper">
+      <div class="logo">
+        <p>KOTO</p>
+      </div>
+      <ul class="menu">
+        <li class="menuu">
+          Company
+        </li>
+        <li class="menuu">
+          Spot
+        </li>
+        <li class="menuu">
+          Night View
+        </li>
+        <li class="menuu">
+          Contact
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!--  -->
+
+  <!-- タイトル画面 -->
+  <div class="mainVisual">
+    <div class="slideshow">
+      <img src="./img/キャッチフレーズ/4K夜景.jpg">
+      <img src="./img/キャッチフレーズ/レインボーブリッヂ.jpg">
+      <img src="./img/キャッチフレーズ/東京タワー+夜景.jpg">
+    </div>
+    <div class="catchcopy">
+      <p>Tokyo night view</p>
+      <p>~Beautiful night view of Tokyo~</p>
+    </div>
+  </div>
+  <!--  -->
+
+
+  <!-- スポット -->
+  <div class="Spot">
+    <div class="Spot_wrapper">
+      <div class="spot">
+        <h1>Spot</h1>
+        <p>一覧</p>
+      </div>
+      <div class="spotImg">
+        <div>
+          <img src="./img/Spot/東京タワー.jpg">
+          <p class="tokyotower">東京タワー<br><br>営業時間<br>9:00~23:00</p>
+        </div>
+        <div>
+          <img src="./img/Spot/東京スカイツリー.png">
+          <p class="skytree">東京スカイツリー <br><br>営業時間<br>10:00~21:00</p>
+        </div>
+        <div>
+          <img src="./img/Spot/KDDITELEHOUSE江東.jpg">
+          <p class="toyosu">豊洲<br><br>営業時間<br>ゆりかもめ線:終電まで</p>
+        </div>
+        <div>
+          <img src="./img/Spot/渋谷スカイ.jpg">
+          <p class="shibuya">渋谷スカイ<br><br>営業時間<br>10:00~22:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- company -->
+  <div class="Company">
+    <div class="Company_wrapper">
+      <div class="company">
+        <h1>Company</h1><br>
+        <p>会社情報</p>
+      </div>
+
+      <div class="about">
+        <img src="./img/Company/company.jpg">
+        <p><span class="bigtext">江東official耶斯ism</span><br><br>
+          江東official耶斯ismは皆様に日本で人気の夜景スポットを紹介<br>
+          しているサイトです。ほかのページに東京以外の場所も紹介<br>
+          しているので是非ご覧ください。</p>
+
+      </div>
+    </div>
+  </div>
+  <!--  -->
+
+  <!-- nigth view -->
+
+  <div class="NightView">
+    <div class="NightView_wrapper">
+      <div class="nightview">
+        <h1>Nightview</h1><br>
+        <p>夜景</p>
+      </div>
+      <div class="nightViewImg">
+        <img src="./img/NightView/夜桜.jpg">
+        <img src="./img/NightView/東京タワー夜景.jpg">
+        <img src="./img/NightView/東京駅.jpg">
+        <img src="./img/NightView/渋谷夜景.jpg">
+        <img src="./img/NightView/豊洲.jpg">
+        <img src="./img/NightView/スカイツリー.jpg">
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <!-- Contact -->
+  <div class="Content">
+    <div class="Content_wrapper">
+      <div class="ContentText">
+        <h1>Content</h1>
+        <p>お問い合わせ</p>
+        <img src="./img/Contact/nightstar1.jpg">
+      </div>
+      <div class="input">
+        <ul class="inputs">
+          <li class="contents">
+            <label for="fullname">氏名</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+          </li>
+          <li class="contents">
+            <label for="email">メール</label><br>
+            <input type="email" id="email" name="email"><br><br>
+          </li>
+          <li class="contents">
+            <label for="phone">電話番号</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+          </li>
+          <li class="contents">
+            <label for="message">内容</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="sendBox">
+  <p>送　信</p>
+</div>
+<!--  -->
+
+<!-- footer -->
+<div class="footer">
+  <p>© 2022 江東official耶斯ism</p>
+</div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
